@@ -6,6 +6,7 @@
   "scripts": {
     "type": "tsc --noEmit --composite false",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
+    "lint:fix": "eslint \"**/*.{js,ts,tsx}\" --fix",
     "start": "node --require ts-node/register --require tsconfig-paths/register ./src/index.ts"
   },
   "keywords": [],
